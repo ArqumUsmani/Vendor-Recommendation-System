@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+@import url('fonts.css');
+
+:root {
+    --primary: #042A38;
+    --accent: #760933;
+    --secondary: #9B0C43;
+    --accent-light: #F7F5EB;
+    --accent-dark: black;
+}
+
+body{
+    font-family:  'Titillium Web', sans-serif;
+    background-color: #efefef;
+}
+
+.CtaBtn {
+    background-color: var(--primary)!important;
+    color: var(--accent-light)!important;
+}
+
+.HeadingBackground {
+    background-color: var(--primary)!important;
+    border-radius: 5px!important;
+}
+
+/* Navigation */
+
+.sidenav-trigger{
+    display: block!important;
+}
+nav{
+    background-color:#efefef!important;
+    /* border: none!important; */
+box-shadow:0 5px 30px 0 rgba(0, 0, 0, .1), 0 30px 51px 0px rgba(0, 0, 0, 0.1)!important;
+}
+nav .nav-wrapper a{
+    color:black!important;
+}
+
+/* Main */
+
+.Card-titleHeading{
+    font-weight: 700;
+    font-size: 1.5em;
+    margin-top: 50px!important;
+    color:var(--accent-light)!important;
+}
+.CustomContainer{
+    margin: auto 5%;
+}
+.card{
+    border-radius: 5px!important;
+}
+.InnerHeadingTitle{
+    color: var(--accent-light)!important;
+}
+.btn-floating{
+    background-color:var(--primary)!important;
+}
+.btn-floating .material-icons{
+ color:var(--accent-light)!important;
+}
+.NoShadow{
+    box-shadow: none!important;
+}
+.tabs .tab a:hover, .tabs .tab a.active, .tabs .tab a{
+    color: var(--accent)!important
+}
+.tabs .tab a{
+    color: var(--accent)!important
+}
+.tabs .indicator{
+    background-color:var(--accent)!important;
+}
+.tabs .tab a:focus, .tabs .tab a:focus.active{
+    background-color: transparent!important;
+    opacity: .9;
+}
+
